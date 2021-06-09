@@ -1,0 +1,44 @@
+{
+  "name": "login",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "archiver": "^5.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.1"
+  },
+  "homepage": "/login",
+  "proxy": "http://localhost:8888",
+  "scripts": {
+    "start": "npm run build:css && react-scripts start",
+    "build": "rm -r ../static/login && npm run build:css && react-scripts build && mv build ../static/login",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss build src/css/tailwind.css -o src/css/main.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.8.13"
+  }
+}

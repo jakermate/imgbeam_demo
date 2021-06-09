@@ -1,0 +1,108 @@
+DELETE http://localhost:8888/notifications/api/clear?notification_id=12 HTTP/1.1
+
+###
+DELETE http://localhost:8888/notifications/api/clear/all HTTP/1.1
+
+###
+# forgot password // send email and create request
+POST http://localhost:8888/password/forgot?login=admin HTTP/1.1
+###
+POST http://localhost:8888/user/api/tester/follow
+###
+# get password reset page and verify reset link
+GET http://localhost:8888/password/reset?email=jakemillerdev@gmail.com&token=$2b$10$Inu4u1fuZZsNunnDuMar/u5qec4zt0juv7TAo2klnxtiVV2M76GaW  HTTP/1.1
+###
+# reset forgotten password
+POST http://localhost:8888/password/reset?email=jakemillerdev@gmail.com&token=$2b$10$D9agelfqT8lN62WCQe/8Z.LQ5oRrAAO0EHomHw0wyYsX0AOZh.JG2 HTTP/1.1
+
+###
+GET http://localhost:8888/notifications/api/get/all HTTP/1.1
+
+###
+GET http://localhost:8888/trending/api/new?from=5&to=10 HTTP/1.1
+
+###
+GET http://localhost:8888/trending/api/mostviewed/alltime HTTP/1.1
+
+###
+# check owner route auth for gallery edit api
+GET http://localhost:8888/beam/api/edit/9D0sY98c/test HTTP/1.1
+
+###
+POST http://localhost:8888/beam/api/edit/9D0sY98c/visibility/public HTTP/1.1
+
+###
+
+# test user page
+GET http://localhost:8888/user/api/newUser HTTP/1.1
+
+
+### 
+# test follow api
+POST http://localhost:8888/user/api/newUser/follow HTTP/1.1
+
+###
+
+# test like api
+POST http://localhost:8888/beam/api/sxsxasx/like?lt=c HTTP/1.1
+
+### 
+# test favorite api
+POST http://localhost:8888/beam/api/sxsxasx/favorite HTTP/1.1
+
+###
+# INCORRECT PASSWORD
+POST http://localhost:8888/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "saple"
+}
+
+###
+
+# attempt to access
+GET http://localhost:8888/account HTTP/1.1
+ 
+###
+
+# attempt to access homepage
+GET http://localhost:8888 HTTP/1.1
+
+###
+# attempt to access settings
+GET http://localhost:8888/settings HTTP/1.1
+
+###
+
+// CONTACTS LIST (username based)
+POST http://localhost:8888/contacts/add/newUser HTTP/1.1
+###
+DELETE http://localhost:8888/contacts/remove/userToRemove HTTP/1.1
+
+### 
+
+// test messaging
+POST http://localhost:8888/api/messaging/send?user_id=54 HTTP/1.1
+Content-Type: application/json
+
+{
+    "message" : "first message"
+}
+
+###
+// get whole conversation
+GET http://localhost:8888/api/messaging/get?user_id=2 HTTP/1.1
+
+###  
+# CORRECT LOGIN
+POST http://localhost:8888/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "tester",
+    "password": "newpassword8"
+}
+###
+GET http://localhost:8888/admin/loggedIn HTTP/1.1

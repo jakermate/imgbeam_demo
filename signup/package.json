@@ -1,0 +1,45 @@
+{
+  "name": "signup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "lodash": "^4.17.20",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.0",
+    "validator": "^13.1.17"
+  },
+  "homepage": "/signup",
+  "devDependencies": {
+    "tailwindcss": "^1.8.13",
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.1.0"
+  },
+  "proxy": "http://localhost:8888",
+  "scripts": {
+    "start": "npm run build:css && react-scripts start",
+    "build": "rm -r ../static/signup && npm run build:css && react-scripts build && mv build ../static/signup",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/css/tailwinds.css -o src/css/main.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

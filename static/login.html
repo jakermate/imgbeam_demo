@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgbeam | log in</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="form-container" class="flex container mx-auto max-w-2xl h-screen flex-col justify-center align-center">
+    <div id="login-form-panel" class="border-2 rounded-md px-6 py-8">
+
+        <div class="text-center">
+            <h2 class="text-3xl font-bold mb-6">LOG IN</h2>
+        </div>
+        <form action="/login" method="POST" class="flex flex-col max-w-2xl mx-auto" >
+            <input class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4" type="text" name="username" placeholder="username">
+            <input class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4" type="text" name="password" placeholder="password">
+            <button class="px-4 mb-8 py-2 bg-blue-500 text-white rounded-md"  type="submit">Login</button>
+        </form>
+        <hr>
+        <div class="flex mt-4 flex-col justify-center items-center">
+            <div class="text-xs">Don't have an account?</div> 
+            <a href="/signup" class="text-sm text-blue-500">Register</a>
+        </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pixigi | sign up</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/220ca912cf.js" crossorigin="anonymous"></script>
+    <meta name="description" content="PIXIGI Sign Up.  Pixigi, exploring the internet one image at a time.">
+  </head>
+  <body style="background:#222;" class="text-white">
+    <div id="back-container" class="ml-4 mt-4">
+      <a href="/" class="flex flex-row items-center "><i className="fas mx-2 fa-arrow-alt-circle-left"></i> go home</a>
+    </div>
+    <div id="logo-container" class="container mx-auto mt-12">
+      <!-- <img src="pixigi_logo.png" alt=""> -->
+      <h1 class="text-5xl text-purple-500 text-center mb-8 font-bold">new post</h1>
+    </div>
+    <div
+      id="form-container"
+      class="flex  pb-12 items-center container mx-auto  flex-col justify-start align-center"
+    >
+    
+    <div id="signup-form-panel" style="width:420px;" class="text-black border-2 mt-2 bg-white max-w-lg rounded-md px-6 py-8">
+        
+        <form action="/upload/create" method="POST" enctype="multipart/form-data">
+            <input type="file" name="image" id="" >
+            <button type="submit" value="">Go</button>
+        </form>
+          
+    </div>
+      
+    </div>
+
+  </body>
+</html>

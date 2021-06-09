@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pixigi | sign up</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/220ca912cf.js" crossorigin="anonymous"></script>
+    <meta name="description" content="PIXIGI Sign Up.  Pixigi, exploring the internet one image at a time.">
+  </head>
+  <body style="background:#111;" class="text-white">
+    <div id="back-container" class="ml-4 mt-4">
+      <a href="/" class="flex flex-row items-center "><i className="fas mx-2 fa-arrow-alt-circle-left"></i> go home</a>
+    </div>
+    <div id="logo-container" class="container mx-auto mt-12">
+      <!-- <img src="pixigi_logo.png" alt=""> -->
+      <h1 class="text-5xl text-purple-500 text-center mb-8 font-bold">pixigi</h1>
+    </div>
+    <div
+      id="form-container"
+      class="flex  pb-12 items-center container mx-auto  flex-col justify-start align-center"
+    >
+    <div id="register-label" class="text-white">
+      register with email
+    </div>
+    <div id="signup-form-panel" style="width:420px;" class="text-black border-2 mt-2 bg-white max-w-lg rounded-md px-6 py-8">
+        
+          <form
+            action="/signup"
+            method="POST"
+            class="flex flex-col max-w-2xl mx-auto text-sm mx-6"
+          >
+            <label class="hidden mb-1 font-bold text-xs text-gray-700" for="username">Username</label>
+            <input
+              class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4 bg-gray-300 placeholder-gray-600 focus:border-2 focus:outline-none focus:border-purple-500"
+              type="text"
+              name="username"
+              placeholder="username"
+              required
+            />
+            <label class="hidden mb-1 font-bold text-xs text-gray-700" for="email">Email</label>
+            <input
+              class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4 bg-gray-300 placeholder-gray-600 focus:border-2 focus:outline-none focus:border-purple-500"
+              type="text"
+              name="email"
+              placeholder="email"
+              required
+            />
+            <label class="hidden mb-1 font-bold text-xs text-gray-700" for="password">Password</label>
+
+            <input
+              class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4 bg-gray-300 placeholder-gray-600 focus:border-2 focus:outline-none focus:border-purple-500"
+              type="text"
+              name="password"
+              placeholder="password"
+              required
+            />
+            <label class="hidden mb-1 font-bold text-xs text-gray-700" for="retype-password">Confirm Password</label>
+
+            <input
+              class="border-2 border-gray-300 rounded-md px-4 py-2 mb-4 bg-gray-300 placeholder-gray-600 focus:border-2 focus:outline-none focus:border-purple-500"
+              type="text"
+              name="retype-password"
+              placeholder="retype password"
+              required
+            />
+            <button
+              class="px-4 mb-4 py-2 bg-green-500 text-white rounded-md"
+              type="submit"
+            >
+              Lets Go!
+            </button>
+          </form>
+          <div id="or-sign-in" class="w-full mb-6 flex flex-col justify-center items-center">
+            <div class="text-xs mb-4">or</div>
+            <a href="/login" class="text-purple-500 text-sm">Sign-In</a>
+
+          </div>
+          <hr>
+          <div class="flex mt-4 flex-col justify-center items-center">
+            <a href="/login/forgotpassword" class="text-xs">Forgot your password?</a>
+          </div>
+    </div>
+      
+    </div>
+
+  </body>
+</html>
