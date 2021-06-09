@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-4" transform="translate(-229.000000, -230.000000)">
+            <g id="Group" transform="translate(229.000000, 230.000000)">
+                <circle id="Oval" fill="#545454" cx="25" cy="25" r="25"></circle>
+                <g id="Group-6-Copy-3" transform="translate(16.588785, 10.514019)">
+                    <rect id="Rectangle" fill="#FF8997" x="0" y="8.9591286" width="4.97705027" height="10.3527708" rx="2.48852513"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#97FF89" x="5.87291932" y="4.57911018" width="4.97705027" height="19.1128077" rx="2.48852513"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#89A3FF" x="11.8453796" y="-4.52682222e-14" width="4.97705027" height="28.271028" rx="2.48852513"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

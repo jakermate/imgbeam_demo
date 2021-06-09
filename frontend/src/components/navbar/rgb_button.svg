@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="445px" height="172px" viewBox="0 0 445 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="445" height="172" rx="46"></rect>
+        <filter x="-23.6%" y="-23.4%" width="147.2%" height="146.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-327.000000, -1353.000000)">
+            <g id="Group-7" transform="translate(327.000000, 1353.000000)">
+                <g id="Group-6-Copy-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#FF8997" mask="url(#mask-2)" x="0" y="0" width="148" height="172"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#97FF89" mask="url(#mask-2)" x="148" y="0" width="149" height="172"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#89A3FF" mask="url(#mask-2)" x="297" y="0" width="148" height="172"></rect>
+                </g>
+                <g id="Group-2" filter="url(#filter-3)" transform="translate(160.000000, 23.000000)" fill="#FFFFFF" opacity="0.983561198">
+                    <rect id="Rectangle" x="0" y="50" width="125" height="26" rx="4.5"></rect>
+                    <path d="M4.5,50 L120.5,50 C122.985281,50 125,52.0147186 125,54.5 L125,71.5 C125,73.9852814 122.985281,76 120.5,76 L4.5,76 C2.01471863,76 3.04359188e-16,73.9852814 0,71.5 L0,54.5 C-3.04359188e-16,52.0147186 2.01471863,50 4.5,50 Z" id="Rectangle-Copy" transform="translate(62.500000, 63.000000) rotate(90.000000) translate(-62.500000, -63.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

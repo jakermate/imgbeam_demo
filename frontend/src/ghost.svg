@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="156px" viewBox="0 0 119 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <path d="M59.5,0 C92.3609426,-6.03645723e-15 119,26.6390574 119,59.5 L119,84.5 C119,85.4464356 118.977903,86.38771 118.934196,87.3233355 C118.977737,87.8764723 119,88.4356363 119,89 L119,135 C119,146.59798 109.59798,156 98,156 C89.604945,156 82.3604432,151.073896 78.9993807,143.954574 C75.6395568,151.073896 68.395055,156 60,156 C51.1611618,156 43.5977342,150.539318 40.4993186,142.807557 C37.4022658,150.539318 29.8388382,156 21,156 C9.40202025,156 1.42034288e-15,146.59798 0,135 L0,89 C-6.91146205e-17,88.4356363 0.0222625364,87.8764723 0.0659573224,87.3233383 C0.0220973864,86.38771 1.15904927e-16,85.4464356 0,84.5 L0,59.5 C-4.02430482e-15,26.6390574 26.6390574,6.03645723e-15 59.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-134.000000, -365.000000)">
+            <g id="Rectangle-Copy-6" transform="translate(134.000000, 365.000000)">
+                <g id="Mask">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#C5EA7A" xlink:href="#path-1"></use>
+                    <rect id="Rectangle-Copy-7" fill="#EA8D7A" mask="url(#mask-2)" x="-2" y="-21" width="42" height="189" rx="21"></rect>
+                </g>
+                <rect fill="#9F7AEA" x="79" y="-21" width="42" height="192" rx="21"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
